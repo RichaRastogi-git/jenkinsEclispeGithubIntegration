@@ -1,0 +1,11 @@
+package com.coforge.jenkinsJava;
+
+public class PlayerMain {
+
+	public static void main(String[] args) {
+		Players sachin = new Players(10,"Sachin Tendulkar","Mumbai");
+		System.out.println(sachin.getJerseyNo()+" : "+sachin.getPlayerName()+" : "+sachin.getState());
+
+	}
+
+}
